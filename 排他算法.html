@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <!-- <script type="text/javascript">
+        	'use strict';
+        	window.onload = function(){
+        		var btn = document.getElementsByTagName('li');
+        		for(var i = 0; i < btn.length; i++){
+        			btn.onclick = function(){
+        				for(var j = 0; j < btn.length; j++){
+        					btn[j].style.color = '';
+        				}
+        				this.style.color = 'red';
+        			}
+        		}
+        
+        	};
+        	
+        </script> -->
+    </head>
+    <body>
+        <ul>
+        	<li>诚实</li>
+        	<li>守信</li>
+        	<li>勤劳</li>
+        	<li>勇敢</li>
+        	<li>正义</li>
+        </ul>
+        <script type="text/javascript">
+        	'use strict';
+        		var btn = document.getElementsByTagName('li');
+        		for(var i = 0; i < btn.length; i++){
+        			btn[i].onclick = function(){
+        				for(var j = 0; j < btn.length; j++){
+        					btn[j].style.color = 'green';
+        				}
+        				this.style.color = 'red';
+        			}
+        		}
+        	
+        </script>
+    </body>
+</html>
